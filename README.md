@@ -14,3 +14,5 @@ What did I do to make this?
   - prettier (my `printWidth` and `quoteProps`settings are kind of opinionated)
 - Added eslint and prettier scripts
 - Added basic automatic eslint + prettier GitHub workflow
+
+I also committed the VS Code workspace setting to format files on save, which seems like a good idea for a repository that checks for prettier style as part of its CI script.
