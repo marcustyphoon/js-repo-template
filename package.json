@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "npm run eslint && npm run prettier",
-    "eslint": "eslint src --ext js,jsx",
+    "eslint": "eslint src",
     "prettier": "prettier src --check"
   },
   "devDependencies": {
