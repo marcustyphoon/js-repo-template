@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "npm run eslint && npm run prettier",
+    "preinstall": "npx only-allow pnpm",
+    "test": "pnpm eslint && pnpm prettier",
     "eslint": "eslint src",
     "prettier": "prettier src --check"
   },
