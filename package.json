@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "test": "pnpm eslint && pnpm prettier",
     "eslint": "eslint src",
     "prettier": "prettier src --check"
@@ -9,5 +8,9 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.4"
+  },
+  "engines": {
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
   }
 }
