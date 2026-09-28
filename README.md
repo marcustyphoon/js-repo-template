@@ -5,7 +5,7 @@ What did I do to make this?
 - Set up .gitignore using some of [GitHub's presets](https://github.com/github/gitignore)
 - Created empty package.json (`{}`)
 - Installed eslint and prettier
-  - `npm add -D eslint` (or `npm dlx install-peerdeps --dev eslint-config-airbnb` or `npm dlx install-peerdeps --dev eslint-config-airbnb-base`)
+  - `npm add -D eslint` (or `npx install-peerdeps --dev eslint-config-airbnb` or `npm dlx install-peerdeps --dev eslint-config-airbnb-base`)
   - `npm install -D prettier`
   - `npm install -D eslint-config-prettier` (possibly optional without a config, but good to know about)
 - Added basic config files for:
